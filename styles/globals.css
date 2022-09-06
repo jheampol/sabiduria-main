@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2{
+  font-family: 'Fredoka One', cursive;
+}
+
+.container{
+  width: 95%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px){
+  .container{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 880px){
+  .responsive-img{
+     height: 50%;
+  }
+}
+
+.text-silider .react-slideshow-fadezoom-images-wrap{
+  height: calc(100vh - 72px);
+}
+
+.imgcover{
+  background-size: cover;
+}
